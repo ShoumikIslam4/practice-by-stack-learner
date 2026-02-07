@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const Profile = ({name, title, skills, socials}) => {
-
+const SkProfile = ({name, title, skills, socials}) => {
   return (
-    <div >
-      <div className="border-1 border-gray-400 w-200 ml-120 mt-10 p-10">
+    <div>
+        <div className="border-1 border-gray-400 w-200 ml-120 mt-10 p-10">
         <div>
           <h2 className="text-3xl font-semibold">{name}</h2>
           <p>{title}</p>
@@ -47,7 +46,7 @@ const Profile = ({name, title, skills, socials}) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Profile;
+export default SkProfile
